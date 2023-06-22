@@ -3,7 +3,7 @@
 The study is published in Journal of Civil Structural Health Monitoring: https://link.springer.com/article/10.1007/s13349-022-00627-8.
 
 # Code
-Used these codes around 2 years ago, some functions might have been deprecated, let me know if any of them doesn't work by creating a ticket in the issues. This study was also the first times I was learning about GANs, so the scripts below were typed in very simple and beginner level.
+Used these scripts around 2 years ago, some functions might have been deprecated, let me know if any of them doesn't work by creating a ticket in the issues. This study was also the first times I was learning about GANs, so the scripts below were typed in very simple and beginner level.
 
 DCNN_and_training.py: provides the training of DCNN model and its training procedure
 
