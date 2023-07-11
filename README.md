@@ -17,7 +17,9 @@ utils.py: provides the gradient penalty
 
 # Dataset
 The dataset used in the paper can be obtained here: http://onur-avci.com/benchmark/
-I shared two folders in the repo, named a01 (undamaged) and a11 (damaged), where both a01 and a11 folders consists of 29 amount of vibration data sample csv file. Normally, the acceleration data samples are found in the form of 1024 second signals (each sample consist 262144 data sample) in the original dataset: http://onur-avci.com/benchmark/. But I divided each sample into 256 pieces, making each data sample consists of 1024 data points. You can do this division for the rest of the 227 amount of vibration data samples, which can be obtained in the original dataset.
+I shared two folders in the repo, named a01 (undamaged) and a11 (damaged), where both a01 and a11 folders consists of 29 amount of vibration data sample csv file. 
+
+Normally, the acceleration data samples are found in the form of 1024 second signals (each sample consist 262144 data sample) in the original dataset: http://onur-avci.com/benchmark/. But I divided each sample into 256 pieces, making each data sample consists of 1024 data points. You can do this division for the rest of the 227 amount of vibration data samples, which can be obtained in the original dataset.
 
 
 # About the study
