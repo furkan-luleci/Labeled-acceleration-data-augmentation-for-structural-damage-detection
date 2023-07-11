@@ -15,6 +15,10 @@ trainWGAN-GP.py: provides the training procedure of WGAN-GP (or WDCGAN-GP) since
 
 utils.py: provides the gradient penalty
 
+# Dataset
+The dataset used in the paper can be obtained here: http://onur-avci.com/benchmark/
+I shared two folders in the repo, named a01 (undamaged) and a11 (damaged), where both a01 and a11 folders consists of 29 amount of vibration data sample csv file. Normally, the acceleration data samples are found in the form of 1024 second signals (each sample consist 262144 data sample) in the original dataset: http://onur-avci.com/benchmark/. But I divided each sample into 256 pieces, making each data sample consists of 1024 data points. You can do this division for the rest of the 227 amount of vibration data samples, which can be obtained in the original dataset.
+
 
 # About the study
 The objective of this study is to investigate the integrated use of 1-D GAN and 1-D DCNN to address the data scarcity problem for nonparametric vibration-based structural damage detection (level-I damage diagnostics). First, a GAN variant, 1-D Wasserstein Deep Convolutional Generative Adversarial Networks using Gradient Penalty (1-D WDCGAN-GP) is employed for synthetic labelled acceleration data generation to augment the training data with varying ratios. Subsequently, the 1-D DCNN model is trained with the synthetically augmented data and then tested on the unseen raw acceleration data to demonstrate the performance of the WDCGAN-GP. First figure below represents the objective of the study with a schematic diagram. It is a well-known fact that the imbalanced data classes are detrimental to the performance of DL models which lowers their prediction scores. This study aims to solve the imbalanced data classes problem due to the data scarcity issue in the SHM field. 
