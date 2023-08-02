@@ -1,4 +1,4 @@
-# WGAN_GP-Labeled-acceleration-data-augmentation-for-structural-damage-detection
+# Labeled-acceleration-data-augmentation-for-structural-damage-detection
 
 The study is published in Journal of Civil Structural Health Monitoring: https://link.springer.com/article/10.1007/s13349-022-00627-8.
 
